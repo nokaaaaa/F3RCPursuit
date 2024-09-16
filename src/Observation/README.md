@@ -10,7 +10,7 @@ Observation observation({&dt35_1, &dt35_2, &dt35_3});
 ```cpp
 observation.getPoseObs().x//x座標
 observation.getPoseObs().y//y座標
-observation.getPoseObs().theta//R2の角度(初期位置の正面をΘ=0とする)
+observation.getPoseObs().theta//R2の角度(横の壁に平行な角度をΘ=0とする)
 ```
 
 ##　解説
